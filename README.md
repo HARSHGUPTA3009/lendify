@@ -26,7 +26,7 @@ This app lets borrowers create loan requests, lenders fund them with ETH, and bo
 
 ## 📂 File Structure
 
-![File Structure]<img src="public/0.png" alt="structure" width="200" height="400"/>
+<img src="public/0.png" alt="structure" width="200" height="500"/>
 
 
 
