@@ -23,10 +23,10 @@ This app lets borrowers create loan requests, lenders fund them with ETH, and bo
 - **Local Hardhat node** (or easily deployable to Goerli/Mumbai)
 
 ---
-hello
+
 ## 📂 File Structure
 
-![File Structure](0.png)
+![File Structure](public/0.png)
 
 
 ---
@@ -34,27 +34,27 @@ hello
 ## 🖼 Screenshots
 
 ### 🏠 Home
-![Home](1.png)
+![Home](public/1.png)
 
 ---
 
 ### 📝 Create Loan
-![Create Loan](2.png)
+![Create Loan](public/2.png)
 
 ---
 
 ### 💸 Fund Loan
-![Fund Loan](3.png)
+![Fund Loan](public/3.png)
 
 ---
 
 ### 📊 My Loans Dashboard
-![My Loans](4.png)
+![My Loans](public/4.png)
 
 ---
 
 ### 🔁 Repay Loan
-![Repay Loan](5.png)
+![Repay Loan](public/5.png)
 
 ---
 
