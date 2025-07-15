@@ -1,15 +1,29 @@
-# React + Vite
+# 🚀 P2P Lending dApp (Ethereum)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A decentralized peer-to-peer lending platform built on Ethereum.  
+This app lets borrowers create loan requests, lenders fund them with ETH, and borrowers repay loans — all on-chain.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+✅ Borrowers create loan requests with amount & due date.  
+✅ Lenders view & fund these requests using ETH.  
+✅ Borrowers repay loans, tracked live on-chain.  
+✅ "My Loans" dashboard shows status, repayment progress.  
+✅ Clean React + Tailwind UI, fully integrated with Solidity smart contracts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+## 🛠 Tech Stack
 
-0x8166f546bab6da521a8369cab06c5d2b9e46670292d85c875ee9ec20e84ffb61
+- **Solidity (Hardhat)** — smart contracts
+- **React.js + TailwindCSS** — frontend
+- **Ethers.js** — blockchain interactions
+- **Local Hardhat node** (or easily deployable to Goerli/Mumbai)
+
+---
+
+## 📂 File Structure
+
+![File Structure](0.png)
