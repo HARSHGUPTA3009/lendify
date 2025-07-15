@@ -1,0 +1,42 @@
+/* Ensure this file is processed by Tailwind CSS via PostCSS, not directly by the browser */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make entire app consistently dark, prevent white flashes */
+html, body, #root {
+  background-color: #000; /* full black fallback */
+  color: #e5e5e5; /* default light text */
+  min-height: 100%;
+}
+
+/* Ensure scroll never reveals white */
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+/* For smooth scrolling across app */
+html {
+  scroll-behavior: smooth;
+}
+
+/* If using Tailwind, ensure base bg is enforced */
+:root {
+  --tw-bg-opacity: 1;
+}
+
+/* Optional: also fade edges on mobile scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
